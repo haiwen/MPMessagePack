@@ -183,8 +183,8 @@ typedef void (^MPDispatchSignal)(NSInteger messageId);
   while (YES) {
     if (![_outputStream hasSpaceAvailable]) break;
     
-    NSMutableData *data = [_bufferQueue firstObject];
-    if (!data) break;
+    if ([_bufferQueue count] == 0) break;
+    NSMutableData *data = _bufferQueue[0];
     
     NSUInteger length = data.length - _writeIndex;
     if (length == 0) break;

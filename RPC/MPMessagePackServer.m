@@ -99,7 +99,7 @@ static void MPMessagePackServerAcceptCallBack(CFSocketRef socket, CFSocketCallBa
   setsockopt(CFSocketGetNative(_socket), SOL_SOCKET, SO_REUSEADDR, (void *)&yes, sizeof(yes));
   // TODO: tcp_no_delay?
   
-  if (kCFSocketSuccess != CFSocketSetAddress(_socket, (CFDataRef)address)) {
+  if (kCFSocketSuccess != CFSocketSetAddress(_socket, (__bridge CFDataRef)address)) {
     if (_socket) {
       CFRelease(_socket);
       _socket = NULL;
