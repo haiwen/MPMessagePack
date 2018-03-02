@@ -70,6 +70,7 @@
 		33220B341CFF954F00F3C3DA /* MPRequestor.m in Sources */ = {isa = PBXBuildFile; fileRef = 009D441F1BCEFE270030DD7E /* MPRequestor.m */; };
 		33220B351CFF954F00F3C3DA /* MPDispatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 009D441A1BCEF7560030DD7E /* MPDispatchRequest.h */; };
 		33220B361CFF954F00F3C3DA /* MPDispatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 009D441B1BCEF7560030DD7E /* MPDispatchRequest.m */; };
+		3EA058D92049437B00EF5435 /* GHODict.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA058D82049437B00EF5435 /* GHODict.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		00FB32E51966240B0060AF33 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		33220B171CFF952F00F3C3DA /* MPMessagePack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPMessagePack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33220B1B1CFF952F00F3C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA058D82049437B00EF5435 /* GHODict.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GHODict.m; path = MPMessagePack/GHODict.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 		00FB32BE19661A860060AF33 = {
 			isa = PBXGroup;
 			children = (
+				3EA058D82049437B00EF5435 /* GHODict.m */,
 				0031261D1E0B482400657DAF /* Cartfile */,
 				0031260B1E0B443300657DAF /* Podfile */,
 				006555BB19663A1600288AE7 /* MPMessagePack.podspec */,
@@ -486,6 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA058D92049437B00EF5435 /* GHODict.m in Sources */,
 				001392311B0418EF0082DEA8 /* NSData+MPMessagePack.m in Sources */,
 				004CF2311B9393EF002BE5A4 /* MPMessagePackServer.m in Sources */,
 				004CF2351B939405002BE5A4 /* MPRPCProtocol.m in Sources */,
