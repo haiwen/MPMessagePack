@@ -71,6 +71,8 @@
 		33220B351CFF954F00F3C3DA /* MPDispatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 009D441A1BCEF7560030DD7E /* MPDispatchRequest.h */; };
 		33220B361CFF954F00F3C3DA /* MPDispatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 009D441B1BCEF7560030DD7E /* MPDispatchRequest.m */; };
 		3EA058D92049437B00EF5435 /* GHODict.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA058D82049437B00EF5435 /* GHODict.m */; };
+		3EA058DC204947C400EF5435 /* GHODictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA058DA204947C300EF5435 /* GHODictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA058DD204947C400EF5435 /* GHODict.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA058DB204947C300EF5435 /* GHODict.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +140,8 @@
 		33220B171CFF952F00F3C3DA /* MPMessagePack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPMessagePack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33220B1B1CFF952F00F3C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EA058D82049437B00EF5435 /* GHODict.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GHODict.m; path = MPMessagePack/GHODict.m; sourceTree = "<group>"; };
+		3EA058DA204947C300EF5435 /* GHODictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GHODictionary.h; path = MPMessagePack/GHODictionary.h; sourceTree = "<group>"; };
+		3EA058DB204947C300EF5435 /* GHODict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GHODict.h; path = MPMessagePack/GHODict.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +231,8 @@
 		00FB32BE19661A860060AF33 = {
 			isa = PBXGroup;
 			children = (
+				3EA058DB204947C300EF5435 /* GHODict.h */,
+				3EA058DA204947C300EF5435 /* GHODictionary.h */,
 				3EA058D82049437B00EF5435 /* GHODict.m */,
 				0031261D1E0B482400657DAF /* Cartfile */,
 				0031260B1E0B443300657DAF /* Podfile */,
@@ -305,6 +311,8 @@
 				004CF2341B939405002BE5A4 /* MPRPCProtocol.h in Headers */,
 				004270D11B14E74C006F17C7 /* MPMessagePack.h in Headers */,
 				004CF2301B9393EF002BE5A4 /* MPMessagePackServer.h in Headers */,
+				3EA058DC204947C400EF5435 /* GHODictionary.h in Headers */,
+				3EA058DD204947C400EF5435 /* GHODict.h in Headers */,
 				001392231B0418EF0082DEA8 /* MPMessagePackWriter.h in Headers */,
 				001392251B0418EF0082DEA8 /* MPMessagePackReader.h in Headers */,
 			);
